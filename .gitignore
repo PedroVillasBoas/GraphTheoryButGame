@@ -35,6 +35,9 @@ ExportedObj/
 *.csproj
 *.unityproj
 *.sln
+
+# Crashlytics generated files
+Assets/Plugins/Android/FirebaseCrashlytics.androidlib/
 *.suo
 *.tmp
 *.user
