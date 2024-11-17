@@ -33,7 +33,7 @@ Welcome to **Grafudos**! 🎉 An interactive, fun, and dynamic way to visualize 
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/PedroVillasBoas/GraphTheoryButFun.git
+   git clone https://github.com/PedroVillasBoas/GraphTheoryButGame.git
    ```
 
 2. **Open in Unity**
