@@ -1,5 +1,9 @@
 # Graph Theory But Game
 
+![Project Status](https://img.shields.io/badge/Status-Complete-green?logoColor=%23A8E4A0) ![Project Version](https://img.shields.io/badge/Version-1.0.0-blue) ![Project License](https://img.shields.io/badge/License-MIT-blue) ![Contributors](https://badgen.net/github/contributors/PedroVillasBoas/GraphTheoryButGame) 
+
+![](https://api.visitorbadge.io/api/VisitorHit?user=pedrovillasboas&repo=graphtheorybutgame&countColor=%2300BFFF)
+
 # 🎢 Grafudos
 
 Welcome to **Grafudos**! 🎉 An interactive, fun, and dynamic way to visualize and play with graphs right inside Unity. Whether you're a graph theory enthusiast, a computer science student, or just someone who loves nodes and edges bouncing around, this project is for you!
@@ -164,4 +168,12 @@ This project is licensed under the MIT License.
 
 This "game" was made for a project in College. I had fun while doing it. (: 
 
+## Team
+
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/108764670?v=4" width=115><br><sub>Adriana Lúcia</sub>](https://github.com/Dricalucia) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/107653834?v=4" width=115><br><sub>Bruna Carvalho</sub>](https://github.com/brunacarvalho202)  | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/116602650?v=4" width=115><br><sub>Gislaine Reis</sub>](https://github.com/lainereis2002) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/47667167?v=4" width=115><br><sub>Guilherme Oliveira</sub>](https://github.com/Juillerms) |  
+| :---: | :---: | :---: | :---: |
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/116356964?v=4" width=115><br><sub>Mariane Fontes</sub>](https://github.com/Dricalucia) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/47667167?v=4" width=115><br><sub>Pedro Villas Boas</sub>](https://github.com/PedroVillasBoas)  | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/112591325?v=4" width=115><br><sub>Thiago de Araújo</sub>](https://github.com/tharaujo17)  |   |  
+
+
 ---
+© 2024 - Grafudos
