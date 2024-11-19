@@ -487,14 +487,14 @@ public class GraphManager : MonoBehaviour
             }
 
             // Parse edge weight if available
-            float weight = 0f;
+            float weight = 1f;
             if (numericStrings.Count >= 3)
             {
                 // Parse the weight
                 if (!float.TryParse(numericStrings[2], out weight))
                 {
                     // Use default weight if parsing fails
-                    textUX.text = $"Line {i + 1}: Invalid Weight '{numericStrings[2]}', using default weight.";
+                    textUX.text = $"Line {i + 1}: Invalid Weight '{numericStrings[2]}', using default weight of 1.";
                     weight = 1f;
                 }
             }

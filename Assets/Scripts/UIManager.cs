@@ -216,7 +216,7 @@ public class UIManager : MonoBehaviour
     void OnAddEdgeButtonClicked()
     {
         // Default weight
-        float weight = 0f;
+        float weight = 1f;
 
         // Get the list of vertices
         List<Vertex> vertices = graphManager.graph.vertices;
