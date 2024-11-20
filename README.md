@@ -28,6 +28,14 @@ Welcome to **Grafudos**! 🎉 An interactive, fun, and dynamic way to visualize 
 
 ## 🎮 Getting Started
 
+You can use Grafudos in 2 ways:
+1. **Executable**
+   - You can just download the [Grafudos Zip File](Grafudos.zip) file, extract it anywhere and launch the `Grafudos.exe` executable.
+   - The program will launch and you can start exploring Grafudos!
+
+2. **Unity Editor**
+   - To use Grafudos in Unity Engine follow the steps bellow.
+
 ### Prerequisites
 
 - Unity 2020.3 or later.
