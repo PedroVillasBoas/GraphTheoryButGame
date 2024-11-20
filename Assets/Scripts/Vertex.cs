@@ -170,7 +170,7 @@ public class Vertex : MonoBehaviour, IPointerDownHandler, IDragHandler, IPointer
     IEnumerator PopAnimation()
     {
         // Total duration of the animation
-        float duration = 0.1f; 
+        float duration = 0.4f; 
         float elapsedTime = 0f;
 
         // Initial size of the vertex

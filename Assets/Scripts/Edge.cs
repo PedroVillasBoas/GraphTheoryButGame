@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using TMPro;
 
 public class Edge : MonoBehaviour
 {
@@ -11,6 +12,9 @@ public class Edge : MonoBehaviour
 
     // Directed Graph Flag
     public bool isDirected;
+
+    // TextMeshPro for the weight of the edge
+    public TextMeshPro weightText;
 
     // Awake is called when the script instance is being loaded
     void Awake()
@@ -41,6 +45,13 @@ public class Edge : MonoBehaviour
 
         UpdatePosition();
         UpdateColor();
+
+            // Initialize the weight text
+        if (weightText != null)
+        {
+            weightText.text = weight.ToString();
+            UpdateWeightTextPosition();
+        }
     }
 
     void LateUpdate()
@@ -57,6 +68,23 @@ public class Edge : MonoBehaviour
             lineRenderer.SetPosition(1, vertexB.transform.position);
 
             UpdateColor();
+
+            // Update the position of the weight text
+            if (weightText != null)
+            {
+                UpdateWeightTextPosition();
+            }
+        }
+    }
+
+    // Update the position of the weight text to the midpoint of the edge
+    void UpdateWeightTextPosition()
+    {
+        if (weightText != null && vertexA != null && vertexB != null)
+        {
+            Vector3 midPoint = (vertexA.transform.position + vertexB.transform.position) / 2;
+            weightText.transform.position = midPoint;
+            weightText.transform.rotation = Quaternion.identity; // Keep text upright
         }
     }
 
@@ -73,7 +101,7 @@ public class Edge : MonoBehaviour
     {
         if (isDirected)
         {
-            // Criar um gradiente de vermelho para laranja
+            // Gradient color for directed graphs
             Gradient gradient = new();
             gradient.SetKeys(
                 new GradientColorKey[] {
@@ -89,7 +117,7 @@ public class Edge : MonoBehaviour
         }
         else
         {
-            // Cor sólida para grafos não direcionados (por exemplo, branco)
+            // Solid color for undirected graphs
             Gradient gradient = new();
             gradient.SetKeys(
                 new GradientColorKey[] {
