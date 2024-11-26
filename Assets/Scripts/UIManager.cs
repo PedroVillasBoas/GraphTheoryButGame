@@ -76,6 +76,7 @@ public class UIManager : MonoBehaviour
     public string filePath = "easy";
     public string filePath2 = "calma";
     public string filePath3 = "EUDISSECALMA";
+    public string filePath4 = "GrafoEmLote";
 
     // Manager
     [HideInInspector]
@@ -123,6 +124,7 @@ public class UIManager : MonoBehaviour
         fileDropdown.options.Add(new TMP_Dropdown.OptionData(filePath));
         fileDropdown.options.Add(new TMP_Dropdown.OptionData(filePath2));
         fileDropdown.options.Add(new TMP_Dropdown.OptionData(filePath3));
+        fileDropdown.options.Add(new TMP_Dropdown.OptionData(filePath4));
     }
 
     // Show or Hide the Main UI
