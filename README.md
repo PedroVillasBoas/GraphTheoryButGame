@@ -8,6 +8,8 @@
 
 Welcome to **Grafudos**! 🎉 An interactive, fun, and dynamic way to visualize and play with graphs right inside Unity. Whether you're a graph theory enthusiast, a computer science student, or just someone who loves nodes and edges bouncing around, this project is for you!
 
+![Grafudos](Grafudos.png)
+
 ## 🚀 Features
 
 - **Dynamic Graph Creation**: Add or remove vertices and edges on the fly.
